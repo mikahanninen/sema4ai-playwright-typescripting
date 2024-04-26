@@ -16,4 +16,4 @@ dependencies:
     - robocorp-browser==2.3.3     # https://pypi.org/project/robocorp-browser
 
 rccPostInstall:
-  - npm install
+  - npm install @playwright/test

@@ -4,6 +4,8 @@
 tasks:
   Typescript test:
     shell: npx playwright test
+  Show Typescript report:
+    shell: npx playwright show-report
   Javascript test:
     shell: node tests/test.js
   Codegen:
